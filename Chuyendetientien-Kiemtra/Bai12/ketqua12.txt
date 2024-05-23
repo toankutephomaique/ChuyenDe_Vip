@@ -1,0 +1,42 @@
+
+01 age: Tuổi của bệnh nhân.
+02 sex: Giới tính của bệnh nhân.(0 = nữ, 1 = nam).
+03 cp (chest pain): Loại đau ngực mà bệnh nhân trải qua.
+    Định dạng: Số nguyên (1-4).
+    1 = Đau thắt ngực kiểu điển hình.
+    2 = Đau thắt ngực kiểu không điển hình.
+    3 = Đau ngực không do tim.
+    4 = Không có triệu chứng đau ngực.
+04 trestbps (resting blood pressure): Huyết áp tâm thu lúc nghỉ ngơi (mm Hg).
+05 chol (serum cholesterol): Cholesterol trong huyết thanh (mg/dl).
+06 fbs (fasting blood sugar): Đường huyết lúc đói (> 120 mg/dl, 1 = đúng, 0 = sai).
+07 restecg (resting electrocardiographic results): Kết quả điện tâm đồ lúc nghỉ ngơi.
+    Định dạng: Số nguyên (0-2).
+    0 = Bình thường.
+    1 = Có bất thường ST-T (t-wave inversions và/hoặc ST elevation hoặc depression > 0.05 mV).
+    2 = Phì đại thất trái theo tiêu chuẩn Estes.
+08 thalach (maximum heart rate achieved): Nhịp tim tối đa đạt được trong quá trình kiểm tra gắng sức.
+09 exang (exercise induced angina): Đau thắt ngực do gắng sức (1 = có, 0 = không).
+10 oldpeak:  Sự giảm ST (ST depression) được gây ra bởi bài tập so với lúc nghỉ ngơi.
+11 slope (slope of the peak exercise ST segment): Độ dốc của đoạn ST cao nhất khi gắng sức.
+    Định dạng: Số nguyên (1-3).
+    1 = Độ dốc đi lên.
+    2 = Phẳng.
+    3 = Độ dốc đi xuống.
+12 ca (number of major vessels colored by fluoroscopy): Số lượng mạch chính (0-3) được chiếu sáng bằng huỳnh quang.
+13 thal: Thalassemia (chỉ tình trạng thiếu máu hoặc bất thường huyết học được xác định thông qua kiểm tra Thallium stress test)
+    (3 = bình thường, 
+    6 = cố định khiếm khuyết, 
+    7 = thalassemia đảo ngược).
+14 class: Biến mục tiêu cho biết tình trạng bệnh tim của bệnh nhân 
+    (0 = không có bệnh, 1,2,3,4 = có bệnh(theo mức độ nặng dần)).
+
+có 14 trường và 303 mẫu
+
+            age    trestbps        chol     thalach   oldpeak
+Min   29.000000   94.000000  126.000000   71.000000  0.000000
+Max   77.000000  200.000000  564.000000  202.000000  6.200000
+Mean  54.438944  131.689769  246.693069  149.607261  1.039604
+
+a. Số lượng bệnh nhân tuổi trên 60 và có huyết áp trên 160: 4
+b. Số lượng bệnh nhân nữ tuổi trên 60: 34

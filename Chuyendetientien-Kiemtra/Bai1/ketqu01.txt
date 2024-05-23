@@ -1,0 +1,26 @@
+
+    1.
+        a. Có 14 trường và 5000 mẫu
+        b.  ID: Mã số định danh của khách hàng.
+            Age: Tuổi của khách hàng (đã tròn năm).
+            Experience: Số năm kinh nghiệm làm việc chuyên nghiệp.
+            Income: Thu nhập hàng năm của khách hàng (nghìn đô la).
+            ZIP Code: Mã bưu chính của địa chỉ nhà khách hàng.
+            Family: Quy mô gia đình của khách hàng (số thành viên).
+            CCAvg: Chi tiêu trung bình hàng tháng cho thẻ tín dụng (nghìn đô la).
+            Education: Trình độ học vấn.1: Đại học;2: Sau đại học;3: Cao học/Chuyên nghiệp.
+            Mortgage: Giá trị thế chấp nhà ở nếu có (nghìn đô la).
+            Personal Loan: Khách hàng có chấp nhận khoản vay cá nhân được đề nghị trong chiến dịch gần đây hay không?
+            Securities Account: Khách hàng có tài khoản chứng khoán tại ngân hàng hay không?
+            CD Account: Khách hàng có tài khoản tiền gửi có kỳ hạn (CD) tại ngân hàng hay không?
+            Online: Khách hàng có sử dụng dịch vụ ngân hàng trực tuyến hay không?
+            Credit card: Khách hàng có sử dụng thẻ tín dụng do ngân hàng phát hành hay không?
+    2.
+          Age  Experience    Income
+Min   23.0000     -3.0000    8.0000
+Max   67.0000     43.0000  224.0000
+Mean  45.3384     20.1046   73.7742
+    3.
+        a. Số người độ tuổi dưới 30 mà có thu nhập trên 50.000$: 320
+        b. Số người có độ tuổi dưới 30 mà có kinh nghiệm trên 5 năm: 0
+          

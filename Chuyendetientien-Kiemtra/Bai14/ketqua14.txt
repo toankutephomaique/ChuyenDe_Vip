@@ -1,0 +1,22 @@
+
+1. id
+2. address: Địa chỉ đầy đủ của căn hộ.
+3. city: Thành phố nơi căn hộ đó nằm, có thể là Warsaw, Cracow hoặc Poznan.
+4. floor: Số tầng mà căn hộ đó đặt ở.
+5. id: ID của căn hộ.
+6. latitude: Vĩ độ của căn hộ.
+7. longitude: Kinh độ của căn hộ.
+8. price: Giá của căn hộ tính bằng PLN (zloty Ba Lan) - đây là mục tiêu mà chúng ta muốn dự đoán.
+9. rooms: Số phòng trong căn hộ.
+10. sq: Diện tích của căn hộ tính bằng mét vuông.
+11. year: Năm xây dựng hoặc năm của căn hộ.
+
+có 11 trường và 23764 mẫu
+
+          floor         price      rooms            sq        year
+Min    0.000000  5.000000e+03   1.000000  8.800000e+00    70.00000
+Max   10.000000  1.500000e+07  10.000000  1.007185e+06  2980.00000
+Mean   2.808744  6.493536e+05   2.620771  1.027249e+02  2000.55117
+
+a. Số ngôi nhà có số phòng trên 5 từ năm 2000 là: 110
+b. Số ngôi nhà từ năm 2000 đến nay có giá trên 500.000 là: 9290

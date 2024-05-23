@@ -1,0 +1,32 @@
+
+1. id: Mã định danh của ngôi nhà (kiểu số).
+2. date: Ngày bán ngôi nhà (kiểu chuỗi). Định dạng có thể là dd/mm/yyyy hoặc mm/dd/yyyy.
+3. price: Giá bán của ngôi nhà (mục tiêu dự đoán, kiểu số).
+4. bedrooms: Số phòng ngủ trong ngôi nhà (kiểu số).
+5. bathrooms: Số phòng tắm trong ngôi nhà (có thể bao gồm cả phòng tắm và phòng vệ sinh, kiểu số).
+6. sqft_living: Diện tích sống của ngôi nhà tính bằng feet vuông (kiểu số).
+7. sqft_lot: Diện tích lô đất của ngôi nhà tính bằng feet vuông (kiểu số).
+8. floors: Tổng số tầng của ngôi nhà (kiểu số).
+9. waterfront: Nhà có tầm nhìn ra sông hoặc biển (kiểu số, 0 hoặc 1).
+10. view: Số lần nhà đã được xem xét (kiểu số).
+11. condition: Điều kiện tổng quát của ngôi nhà, với 1 là rất kém và 5 là rất tốt (kiểu số). Thông tin thêm có thể xem ở Glossary.
+12. grade: Đánh giá tổng quát về ngôi nhà theo hệ thống đánh giá của King County, từ 1 là rất kém đến 13 là rất tốt (kiểu số).
+13. sqft_above: Diện tích phần trên mặt đất của ngôi nhà tính bằng feet vuông (không bao gồm diện tích tầng hầm, kiểu số).
+14. sqft_basement: Diện tích tầng hầm của ngôi nhà tính bằng feet vuông (kiểu số).
+15. yr_built: Năm xây dựng ngôi nhà (kiểu số).
+16. yr_renovated: Năm ngôi nhà được cải tạo (kiểu số, nếu chưa cải tạo sẽ là 0).
+17. zipcode: Mã bưu chính của khu vực ngôi nhà (kiểu số).
+18. lat: Vĩ độ của ngôi nhà (tọa độ địa lý, kiểu số).
+19. long: Kinh độ của ngôi nhà (tọa độ địa lý, kiểu số).
+20. sqft_living15: Diện tích phòng khách tính bằng feet vuông vào năm 2015 (ngụ ý rằng có thể đã có cải tạo).
+21. sqft_lot15: Diện tích lô đất tính bằng feet vuông vào năm 2015 (ngụ ý rằng có thể đã có cải tạo).
+
+có 21 trường và 21613  mẫu
+
+             price  bedrooms  bathrooms  sqft_living      sqft_lot    floors
+Min   7.800000e+04    1.0000   0.500000    370.00000  5.200000e+02  1.000000
+Max   7.700000e+06   33.0000   8.000000  13540.00000  1.651359e+06  3.500000
+Mean  5.402966e+05    3.3732   2.115826   2080.32185  1.509941e+04  1.494096
+
+Số lượng nhà có giá dưới 30000 và có 3 phòng ngủ: 0
+Số lượng nhà có giá dưới 40000 và có 3 phòng ngủ, 3 phòng tắm: 0
